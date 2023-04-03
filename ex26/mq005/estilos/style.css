@@ -1,5 +1,55 @@
 @charset "UTF-8";
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
 body, html{
     background-color: lightgray;
+}
+header{
+    background-color: gray;
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu {
+    display: block;
+}
+menu > ul{
+    list-style-type: none ;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    color: white;
+    border-top: 2px solid rgb(64, 64, 64);
+}
+menu > ul > li > a:hover{
+    background-color: gray;
+}
+main{
+    margin-top: 15px;
+    width: 80vw;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    border-radius: 25px;
+}
+article > h2{
+    padding-bottom: 25px;
+}
+article > h3{
+    padding: 10px;
+    text-align: center;
+}
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
